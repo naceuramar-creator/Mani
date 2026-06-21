@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>ANNEXE 08 - Upload and Process</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>ANNEXE 08</h1>
+    <div id="uploader" class="uploader">
+      <input id="fileinput" type="file" multiple accept=".pdf,.jpg,.jpeg,.png" />
+      <div id="dropzone">Drag & Drop files here or click to select</div>
+      <button id="uploadBtn">Upload & Process</button>
+    </div>
+
+    <h2>Extracted Records</h2>
+    <div id="records"></div>
+
+    <div class="actions">
+      <button id="saveBtn">Save records</button>
+      <button id="exportBtn">Export to XLSX</button>
+      <a id="downloadLink" style="display:none"></a>
+    </div>
+  </div>
+<script src="/static/app.js"></script>
+</body>
+</html>

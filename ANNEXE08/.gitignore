@@ -1,0 +1,8 @@
+# .gitignore for ANNEXE 08
+venv/
+__pycache__/
+*.pyc
+uploads/
+exports/
+annexe08.db
+.env

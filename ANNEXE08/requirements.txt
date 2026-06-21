@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+jinja2
+python-multipart
+pytesseract
+opencv-python
+Pillow
+pdf2image
+sqlalchemy
+googletrans==4.0.0-rc1
+openpyxl
+aiofiles
+python-magic
