@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  annexe08:
+    build: ./ANNEXE08
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./ANNEXE08/uploads:/app/uploads
+      - ./ANNEXE08/exports:/app/exports
+      - ./ANNEXE08/annexe08.db:/app/annexe08.db
+    restart: unless-stopped
